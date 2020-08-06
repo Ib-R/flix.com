@@ -1,0 +1,26 @@
+{
+	"name": "flix",
+	"version": "0.1.0",
+	"description": "Flix.com",
+	"main": "server.js",
+	"scripts": {
+		"start": "SET NODE_ENV=production& node server",
+		"dev": "nodemon server"
+	},
+	"author": "IBR",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.1"
+	},
+	"dependencies": {
+		"colors": "^1.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-rate-limit": "^5.0.0",
+		"helmet": "^3.21.2",
+		"hpp": "^0.2.2",
+		"morgan": "^1.9.1",
+		"xss-clean": "^0.1.1"
+	}
+}
